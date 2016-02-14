@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 14, 2016 at 01:17 PM
+-- Generation Time: Feb 14, 2016 at 01:31 PM
 -- Server version: 10.1.10-MariaDB
 -- PHP Version: 7.0.2
 
@@ -64,41 +64,6 @@ CREATE TABLE `urls` (
   `shortened` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `urls`
---
-
-INSERT INTO `urls` (`id`, `url`, `shortened`) VALUES
-(1, 'http://tutsplus.com', 'asdf'),
-(2, 'http://www.google.com', '7bca82'),
-(4, 'http://www.tiguratech.com', '9c048a'),
-(5, 'http://awapzz.com', '1a6cad'),
-(6, 'http://www.vinay.com', '5b010f'),
-(7, 'http://tutsplus1.com', 'd07808'),
-(8, 'http://tutsplu21.com', 'bb34ac'),
-(9, 'http://lltutsplus.com', 'c10ba2'),
-(10, 'http://tut22splus.com', '87d358'),
-(11, 'http://tutsp78lus.com', 'c9b85b'),
-(12, 'http://tutsp56lus.com', 'ded4cb'),
-(13, 'http://tu21tsplus.com', 'eeec10'),
-(14, 'http://tuts45plus.com', 'bedc35'),
-(15, 'http://www.tiguratecjjh.com', '6c27ee'),
-(16, 'http://www.tiguratecj5jh.com', 'a42eec'),
-(17, 'http://www.tiguratecj785jh.com', '95c067'),
-(18, 'http://www.tigurat55ecj785jh.com', '1df336'),
-(19, 'http://www.t89iguratech.com', '8fa9d6'),
-(20, 'http://www.t89igurddatech.com', 'a20705'),
-(21, 'http://www.t89igurddatecllh.com', '17760b'),
-(22, 'http://www.t89igurd55datecllh.com', '3911ee'),
-(23, 'http://www.t89igurd55dakktecllh.com', 'ad1b82'),
-(24, 'http://www.jjt89igurd55dakktecllh.com', 'eb2bd5'),
-(25, 'http://tutkks5plus.com', '64f600'),
-(26, 'http://tutkks5plsaus.com', 'f0565f'),
-(27, 'http://tutkks5plsakus.com', '85ded5'),
-(28, 'http://tutspl', 'f35790'),
-(29, 'http://tutsp', 'b77657'),
-(30, 'http://tu', '79f9f9');
-
 -- --------------------------------------------------------
 
 --
@@ -147,7 +112,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `urls`
 --
 ALTER TABLE `urls`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `users`
 --
